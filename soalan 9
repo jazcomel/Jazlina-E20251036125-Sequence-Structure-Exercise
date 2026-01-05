@@ -1,0 +1,9 @@
+name = input("Enter the student's name: ")
+mark1 = float(input("Enter marks for subject 1: "))
+mark2 = float(input("Enter marks for subject 2: "))
+mark3 = float(input("Enter marks for subject 3: "))
+total_marks = mark1 + mark2 + mark3
+average_marks = total_marks / 3
+print("Student Name:", name)
+print("Total Marks:", total_marks)
+print("Average Marks:", average_marks)
